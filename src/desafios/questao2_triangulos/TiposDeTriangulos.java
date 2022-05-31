@@ -1,8 +1,8 @@
-package desafios;
+package desafios.questao2_triangulos;
 import java.util.Scanner;
 
 public class TiposDeTriangulos {
-    public static void tiposDeTriangulo(){
+    public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Informe o lado 1 do triangulo: ");

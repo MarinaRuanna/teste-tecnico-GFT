@@ -1,11 +1,11 @@
-package desafios;
+package desafios.questao1_telefone;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class TelefoneEncriptado {
-    public static void telefoneEncriptado() {
+    public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite a expressão: ");
@@ -36,7 +36,7 @@ public class TelefoneEncriptado {
             }else if (c == '-') {
                 System.out.println('-');
             } else {
-
+                continue;
             }
         }
 

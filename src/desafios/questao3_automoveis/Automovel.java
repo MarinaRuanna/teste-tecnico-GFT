@@ -1,4 +1,4 @@
-package desafios.automoveis;
+package desafios.questao3_automoveis;
 
 public abstract class Automovel {
 

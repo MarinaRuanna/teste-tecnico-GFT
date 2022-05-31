@@ -1,7 +1,7 @@
-package desafios.agenda;
+package desafios.questao4_agenda;
 import java.util.ArrayList;
 import java.util.List;
-import desafios.agenda.Contato;
+
 public class Agenda  {
     public static List<Contato> contatos = new ArrayList<>();
 

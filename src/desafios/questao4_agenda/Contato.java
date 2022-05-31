@@ -1,4 +1,4 @@
-package desafios.agenda;
+package desafios.questao4_agenda;
 
 public class Contato {
 
@@ -41,7 +41,7 @@ public class Contato {
     public String toString() {
         return "{" +
                 "codigo=" + codigo +
-                ", telefone='" + telefone + '\'' +
+                ", questao1_telefone='" + telefone + '\'' +
                 ", idade=" + idade +
                 '}';
     }
