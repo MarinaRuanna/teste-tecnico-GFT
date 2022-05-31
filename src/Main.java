@@ -4,12 +4,15 @@ import desafios.automoveis.Automovel;
 import desafios.automoveis.Caminhao;
 import desafios.automoveis.Esportivo;
 
+import static desafios.TelefoneEncriptado.telefoneEncriptado;
 import static desafios.TiposDeTriangulos.tiposDeTriangulo;
 
 public class Main {
     public static void main(String[] args) {
 
+        // Questao 1:
 
+        telefoneEncriptado();
 
         // Questão 2:
         tiposDeTriangulo();
