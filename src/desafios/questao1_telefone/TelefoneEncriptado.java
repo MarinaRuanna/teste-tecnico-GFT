@@ -35,8 +35,6 @@ public class TelefoneEncriptado {
                 System.out.println(0);
             }else if (c == '-') {
                 System.out.println('-');
-            } else {
-                continue;
             }
         }
 
