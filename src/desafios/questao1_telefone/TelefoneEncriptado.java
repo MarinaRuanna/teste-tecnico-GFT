@@ -10,8 +10,6 @@ public class TelefoneEncriptado {
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite a expressão: ");
         String expressao = scan.next();
-        List<Character> letras = new ArrayList<>();
-
 
         for (int i = 0; i < expressao.length(); i++) {
             char c = expressao.charAt(i);
