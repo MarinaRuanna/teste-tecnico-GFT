@@ -1,15 +1,13 @@
 package desafios.questao1_telefone;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
-public class TelefoneEncriptado {
+public class TelefoneEncriptadoVersaoIfElse {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite a expressão: ");
-        String expressao = scan.next();
+        String expressao = scan.next().toUpperCase();
 
         for (int i = 0; i < expressao.length(); i++) {
             char c = expressao.charAt(i);
@@ -33,6 +31,8 @@ public class TelefoneEncriptado {
                 System.out.print(1);
             }else if (c == '-') {
                 System.out.print('-');
+            } else {
+                System.out.print("");
             }
         }
 
